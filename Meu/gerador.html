@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador | Certificado</title>
+    <link rel="stylesheet" href="css/gerador.css">
+</head>
+
+<body>
+    <main>
+        <form class="formulario" action="">
+            <fieldset>
+                <div class="input__container">
+                    <legend class="formulario__legenda">Insira suas informações para gerar seu certificado.</legend>
+                    <!--<input class="input" id="data" name="data" type="date" required placeholder="Data de conclusão">-->
+                    <input class="input" id="nome" name="nome" type="text" required placeholder="Nome no certificado">
+                    <input class="input__gerar" id="gerar" name="gerar" type="submit" onclick="mostrarNome()">
+                </div>
+            </fieldset>
+        </form>
+        <h2 class="nomeAluno"></h2>
+    </main>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
