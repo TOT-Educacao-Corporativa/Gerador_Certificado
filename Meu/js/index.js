@@ -1,8 +1,6 @@
-var nomeAluno = document.getElementById('nome');
-var dataConclusao = document.getElementById('data');
-var botaoGerar = document.getElementById('gerar');
-const nomeAlunoTela = document.querySelector('.nomeAluno')
+const nomeAluno = document.getElementById('nome');
 
-window.onload = function mostrarNome() {
-    nomeAlunoTela.textContent = nomeAluno
+function mostrarNome() {
+    const nomeAlunoTela = document.querySelector('input');
+    nomeAluno.innerText = ` Nome no certificado : ${nomeAlunoTela} `
 }
